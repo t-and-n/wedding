@@ -182,6 +182,10 @@ h1{
 .access__dd{
     display:block;
 }
+#map{
+    height:500px;
+    width:100%;
+}
 .COVID19__staffsmeasure,
 .COVID19__guestsmeasure{
     margin-top: -2ex;
