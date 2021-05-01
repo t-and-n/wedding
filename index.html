@@ -83,6 +83,11 @@
         <div class="access" id="access">
             <h2>会場アクセス</h2>
             <div id="map"></div>
+            <script>
+                var MyLatLng = new google.maps.LatLng(35.664,139.708);
+                var Options = {zoom: 17, center: MyLatLng, mapTypeId:'roadmap'};
+                var map = new google.maps.Map(document.getElementById('map'), Options);
+            </script>        
             <!-- <a href="https://www.google.com/maps/place/表参道TERRACE/@35.664,139.708,17z/data=!4m8!1m2!3m1!2z6KGo5Y-C6YGTVEVSUkFDRQ!3m4!1s0x60188ca0eb4a9b15:0xa7e193aeba7583e5!8m2!3d35.6638291!4d139.7079232" target="_blank" rel="noopener">
                 <img class="access__map" src="access_map.png" alt="会場案内図">
             </a>
@@ -137,10 +142,5 @@
     <footer>
         <small class="copyright">Copyright &copy; 2021 T&amp;N All Rights Reserved.</small>
     </footer>
-    <script>
-        var MyLatLng = new google.maps.LatLng(35.664,139.708);
-        var Options = {zoom: 17, center: MyLatLng, mapTypeId:'roadmap'};
-        var map = new google.maps.Map(document.getElementById('map'), Options);
-    </script>
 </body>
 </html>
