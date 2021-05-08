@@ -102,7 +102,11 @@ h1{
     color:#000;
 }
 .main-visual{
-    background: url(main-visual.jpg) center center / cover no-repeat fixed;
+    background-image: url(main-visual.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
 }
 .main-visual-phrase{
