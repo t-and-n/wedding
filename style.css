@@ -1,9 +1,10 @@
 @charset "utf-8";
 body{
-    background:#ddd;
+    background:#eaf7f7;
     color:#222;
     font-family:"Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
 }
+/* #EAF7F7 #85C8AF  #F8F09B */
 main{
     padding:0 .5em;
 }
@@ -28,7 +29,7 @@ a:active{
 header{
 }
 footer{
-    background-color:#ccc;
+    background-color:#cee4e5;
     padding:1em;
     text-align:center;
 }
