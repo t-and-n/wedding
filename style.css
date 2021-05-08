@@ -102,12 +102,12 @@ h1{
     color:#000;
 }
 .main-visual{
-    background: url(main-visual.jpg) right center / cover no-repeat fixed;
+    background: url(main-visual.jpg) center center / cover no-repeat fixed;
     height: 100vh;
 }
 .main-visual-phrase{
     font-family: AntroVectra;
-    font-size: 8vh;
+    font-size: min(8vw,8vh);
     padding-top: 85vh;
 }
 .greeting {
