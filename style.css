@@ -4,6 +4,10 @@ body{
     color:#222;
     font-family:"Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
 }
+@font-face{
+    font-family: AntroVectra;
+    src: url(Antro_Vectra_subset4web.woff) format("woff");
+}
 /* #EAF7F7 #85C8AF  #F8F09B */
 main{
     padding:0 .5em;
@@ -45,6 +49,12 @@ small{
 }
 .aks{
     display:inline-block;
+}
+.AntroVectra{
+    font-family: AntroVectra,"Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
+    font-size: x-large;
+    padding-top: 2ex;
+    padding-bottom: .5ex;
 }
 .gnav__ul{
     width:100%;
@@ -90,6 +100,15 @@ h1{
     text-align:center;
     width:auto;
     color:#000;
+}
+.main-visual{
+    background: url(main-visual.jpg) right center / cover no-repeat fixed;
+    height: 100vh;
+}
+.main-visual-phrase{
+    font-family: AntroVectra;
+    font-size: 8vh;
+    padding-top: 85vh;
 }
 .greeting {
     position:relative;
