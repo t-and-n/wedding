@@ -1,6 +1,6 @@
 @charset "utf-8";
 body{
-    background:#eaf7f7;
+    background:#EBEBEB;
     color:#222;
     font-family:"Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
 }
@@ -8,7 +8,7 @@ body{
     font-family: AntroVectra;
     src: url(Antro_Vectra_subset4web.woff) format("woff");
 }
-/* #EAF7F7 #85C8AF  #F8F09B */
+/* #EBEBEB #85C8AF  #F8F09B */
 main{
     padding:0 .5em;
 }
@@ -33,7 +33,7 @@ a:active{
 header{
 }
 footer{
-    background-color:#cee4e5;
+    background-color:#E0E0E0;
     padding:1em;
     text-align:center;
 }
