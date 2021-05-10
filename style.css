@@ -107,12 +107,13 @@ h1{
     background-attachment: scroll;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: calc(100vh-3.3em);
 }
 .main-visual-phrase{
     font-family: AntroVectra;
     font-size: min(8vw,8vh);
-    padding-top: 85vh;
+    padding-top: 80vh;
+    margin:0;
 }
 .greeting {
     position:relative;
