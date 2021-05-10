@@ -200,6 +200,9 @@ h1{
     height:500px;
     width:100%;
 }
+.COVID19{
+    margin:1em 2em;
+}
 .COVID19__staffsmeasure,
 .COVID19__guestsmeasure{
     margin-top: -2ex;
@@ -211,7 +214,7 @@ h1{
 }
 .COVID19__staffsmeasure li::before,
 .COVID19__guestsmeasure li::before{
-    content: "☑";
+    content: "・";
     position: absolute;
-    left: 1em;
+    margin-left:-1em;
 }
