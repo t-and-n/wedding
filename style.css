@@ -52,7 +52,7 @@ small{
 }
 .AntroVectra{
     font-family: AntroVectra,"Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
-    font-size: x-large;
+    font-size: xx-large;
     padding-top: 2ex;
     padding-bottom: .5ex;
 }
@@ -150,6 +150,7 @@ h1{
 .greeting__h2{
     text-align:center;
     padding-bottom:2ex;
+    font-size:x-large;
 }
 .greeting__p{
     margin:.5ex 0;
@@ -177,6 +178,12 @@ h1{
 }
 .access__map{
     width:min(88vw,40em);
+}
+.access__h3{
+    margin-top:2ex;
+}
+.access__address{
+    margin-left:1em;
 }
 .access__description{
     list-style:square;
