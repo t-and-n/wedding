@@ -159,28 +159,18 @@ h1{
     text-align:center;
     margin-top:5ex;
 }
-.greeting__basic-dl{
-    display:inline-block;
-    text-align:left;
-}
-.greeting__basic-title{
-    width:3em;
-    float:left;
-}
-.greeting__basic-title::after,
-.greeting__detail-title::after{
-    content:":";
-}
-.greeting__basic-description{
-    margin-left:3.5em;
-    margin-bottom:1ex;
-}
-.greeting__detail-title{
-    width:6em;
-    float:left;
+.greeting__date{
+    margin-bottom:0;
 }
 .greeting__detail-schedule{
+    display:inline-block;
+    text-align:left;
+    width:10em;
     padding-left:1em;
+}
+.greeting__detail-title{
+    float:left;
+    padding-right:1em;
 }
 .access{
     margin:1em 2em;
