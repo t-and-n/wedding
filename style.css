@@ -185,6 +185,9 @@ h1{
 .access__address{
     margin-left:1em;
 }
+.access__dl{
+    margin-bottom:2ex;
+}
 .access__description{
     list-style:square;
     margin-left:2em;
